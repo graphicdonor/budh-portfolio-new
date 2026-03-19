@@ -5,33 +5,33 @@ import { MdArrowBack, MdArrowForward } from "react-icons/md";
 
 const projects = [
   {
-    title: "Solid Starters",
-    category: "Low-Code Platform",
-    tools: "Angular, Next.js, NestJS, MongoDB",
+    title: "R'Dash",
+    category: "Construction Management Platform",
+    tools: "Figma, UI/UX Design, Prototyping, Workflow Automation",
     image: "/images/Solidx.png",
   },
   {
-    title: "Radix",
-    category: "E-Commerce",
-    tools: "Angular, Next.js, NestJS, CMS",
+    title: "RankWatch",
+    category: "AI-Powered SEO Platform",
+    tools: "Figma, UI/UX Design, SaaS Design, User Research",
     image: "/images/radix.png",
   },
   {
-    title: "Bond Cancellation",
-    category: "Import-Export Automation",
-    tools: "Angular, Next.js, NestJS, Workflows",
+    title: "WebSignals",
+    category: "Brand Monitoring Platform",
+    tools: "Figma, UI/UX Design, Prototyping, Interaction Design",
     image: "/images/bond.png",
   },
   {
-    title: "Sapphire",
-    category: "CRM Platform",
-    tools: "AngularJS, NestJS, PostgreSQL",
+    title: "Knovelo",
+    category: "Readers Community App",
+    tools: "Figma, UI/UX Design, Branding, Mobile Design",
     image: "/images/sapphire.png",
   },
   {
-    title: "Mpro",
-    category: "Insurance Platform",
-    tools: "React.js, Node.js, Microservices",
+    title: "Kockpit",
+    category: "BI Dashboard for ERP",
+    tools: "Figma, Dashboard Design, Data Visualization, UI Guidelines",
     image: "/images/Maxlife.png",
   },
 ];

@@ -15,43 +15,43 @@ const Career = () => {
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Full Stack Developer</h4>
-                <h5>Ikshan</h5>
+                <h4>UI/UX Designer & Freelancer</h4>
+                <h5>Self-Employed</h5>
               </div>
               <h3>2020</h3>
             </div>
             <p>
-              Built 6+ complete applications using React.js. Integrated backend
-              authentication using Node.js & MongoDB. Created responsive UI/UX
-              and designed wireframes using Figma.
+              Designed Knovelo (readers community platform), Locatr (grocery
+              navigation app), and Kockpit (BI dashboard for ERP systems) —
+              each from ideation to final product.
             </p>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Senior Full Stack Developer</h4>
-                <h5>Monocept (Max Life Insurance)</h5>
+                <h4>UI/UX Designer</h4>
+                <h5>WebIQ Technologies Pvt. Ltd.</h5>
               </div>
-              <h3>2021</h3>
+              <h3>2016 – 2022</h3>
             </div>
             <p>
-              Led two development teams on Mpro, a large-scale insurance
-              operations platform. Developed multiple modules using React.js &
-              migrated critical functionalities to Node.js microservices.
+              Lead designer for RankWatch, an AI-powered cloud-based SEO
+              platform, and WebSignals, a web monitoring tool for brands and
+              agencies — both designed from scratch.
             </p>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Full Stack Developer</h4>
-                <h5>Logic Loop</h5>
+                <h4>Senior UI/UX Designer</h4>
+                <h5>Vonken Brandtech Pvt. Ltd.</h5>
               </div>
               <h3>NOW</h3>
             </div>
             <p>
-              Building Solid, a proprietary low-code platform using Angular,
-              Next.js & NestJS. Delivering production-ready CMS-based projects
-              including e-commerce, CRM, and import-export automation systems.
+              Pivotal role designing R'Dash (YC Funded), a construction
+              management platform for developers, contractors & design studios.
+              Responsible for complete workflow automation UX from scratch.
             </p>
           </div>
         </div>
