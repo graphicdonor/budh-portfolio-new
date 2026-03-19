@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(grep -r gsap /Users/Buddh/Portfolio4/rajesh-portfolio/src --include=*.ts --include=*.tsx --include=*.js --include=*.jsx)"
+    ]
+  }
+}
