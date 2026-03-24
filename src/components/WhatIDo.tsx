@@ -90,9 +90,9 @@ const WhatIDo = () => {
               <h3>UI/UX DESIGN</h3>
               <h4>Crafting Intuitive Experiences</h4>
               <p>
-                Designing user-centred interfaces for SaaS, mobile, and web
-                platforms. From wireframes to high-fidelity prototypes, I deliver
-                pixel-perfect, data-driven experiences.
+                Designing user-centered experiences for SaaS, web, and mobile
+                products with a strong focus on workflows, usability, design
+                systems, prototyping, and research-led decision making.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
@@ -104,6 +104,8 @@ const WhatIDo = () => {
                 <div className="what-tags">Wireframing</div>
                 <div className="what-tags">Interaction Design</div>
                 <div className="what-tags">Zeplin</div>
+                <div className="what-tags">InVision</div>
+                <div className="what-tags">Balsamiq</div>
               </div>
               <div className="what-arrow"></div>
             </div>
@@ -130,9 +132,9 @@ const WhatIDo = () => {
               <h3>VISUAL DESIGN</h3>
               <h4>Branding & Graphic Excellence</h4>
               <p>
-                Creating compelling visual identities, logos, and brand systems.
-                From print to motion, I craft designs that communicate and
-                captivate across every medium.
+                Building brand systems, visual identities, and polished
+                graphics across digital and print media, with added depth in
+                motion, layout, typography, and 3D visual exploration.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
@@ -144,6 +146,8 @@ const WhatIDo = () => {
                 <div className="what-tags">Typography</div>
                 <div className="what-tags">After Effects</div>
                 <div className="what-tags">Cinema 4D</div>
+                <div className="what-tags">Blender</div>
+                <div className="what-tags">CorelDraw</div>
               </div>
               <div className="what-arrow"></div>
             </div>

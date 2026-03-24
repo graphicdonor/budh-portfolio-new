@@ -15,43 +15,46 @@ const Career = () => {
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>UI/UX Designer & Freelancer</h4>
-                <h5>Self-Employed</h5>
+                <h4>Lead Designer</h4>
+                <h5>RankWatch</h5>
               </div>
-              <h3>2020</h3>
+              <h3>SaaS</h3>
             </div>
             <p>
-              Designed Knovelo (readers community platform), Locatr (grocery
-              navigation app), and Kockpit (BI dashboard for ERP systems) —
-              each from ideation to final product.
+              Worked on RankWatch, an AI-powered internet marketing platform
+              that helps website owners and SEO agencies analyze traffic,
+              backlinks, rankings, and competitors. Defined and implemented
+              UI/UX standards and interaction design systems.
             </p>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
                 <h4>UI/UX Designer</h4>
-                <h5>WebIQ Technologies Pvt. Ltd.</h5>
+                <h5>WebSignals</h5>
               </div>
-              <h3>2016 – 2022</h3>
+              <h3>Since 2018</h3>
             </div>
             <p>
-              Lead designer for RankWatch, an AI-powered cloud-based SEO
-              platform, and WebSignals, a web monitoring tool for brands and
-              agencies — both designed from scratch.
+              Built product design for a web monitoring and brand intelligence
+              platform that tracks mentions across social media, news, blogs,
+              forums, and podcasts, taking it from prototype to final
+              solution.
             </p>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Senior UI/UX Designer</h4>
-                <h5>Vonken Brandtech Pvt. Ltd.</h5>
+                <h4>Product Designer</h4>
+                <h5>R'Dash (YC Funded Startup)</h5>
               </div>
-              <h3>NOW</h3>
+              <h3>From Scratch</h3>
             </div>
             <p>
-              Pivotal role designing R'Dash (YC Funded), a construction
-              management platform for developers, contractors & design studios.
-              Responsible for complete workflow automation UX from scratch.
+              Built the construction management platform from scratch for
+              developers, contractors, and design studios. Designed workflows
+              for surveys, BOQs, and vendor allocation with a focus on
+              end-to-end collaboration and automation.
             </p>
           </div>
         </div>

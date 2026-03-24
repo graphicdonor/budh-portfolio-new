@@ -1,44 +1,14 @@
 import { useState, useCallback } from "react";
+import { useNavigate } from "react-router-dom";
 import "./styles/Work.css";
 import WorkImage from "./WorkImage";
-import { MdArrowBack, MdArrowForward } from "react-icons/md";
-
-const projects = [
-  {
-    title: "R'Dash",
-    category: "Construction Management Platform",
-    tools: "Figma, UI/UX Design, Prototyping, Workflow Automation",
-    image: "/images/Solidx.png",
-  },
-  {
-    title: "RankWatch",
-    category: "AI-Powered SEO Platform",
-    tools: "Figma, UI/UX Design, SaaS Design, User Research",
-    image: "/images/radix.png",
-  },
-  {
-    title: "WebSignals",
-    category: "Brand Monitoring Platform",
-    tools: "Figma, UI/UX Design, Prototyping, Interaction Design",
-    image: "/images/bond.png",
-  },
-  {
-    title: "Knovelo",
-    category: "Readers Community App",
-    tools: "Figma, UI/UX Design, Branding, Mobile Design",
-    image: "/images/sapphire.png",
-  },
-  {
-    title: "Kockpit",
-    category: "BI Dashboard for ERP",
-    tools: "Figma, Dashboard Design, Data Visualization, UI Guidelines",
-    image: "/images/Maxlife.png",
-  },
-];
+import { MdArrowBack, MdArrowForward, MdArrowOutward } from "react-icons/md";
+import { projects } from "../data/projectsData";
 
 const Work = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isAnimating, setIsAnimating] = useState(false);
+  const navigate = useNavigate();
 
   const goToSlide = useCallback(
     (index: number) => {
@@ -112,6 +82,13 @@ const Work = () => {
                           <span className="tools-label">Tools & Features</span>
                           <p>{project.tools}</p>
                         </div>
+                        <button
+                          className="view-details-btn"
+                          onClick={() => navigate(`/project/${project.id}`)}
+                          data-cursor="disable"
+                        >
+                          View Details <MdArrowOutward />
+                        </button>
                       </div>
                     </div>
                     <div className="carousel-image-wrapper">

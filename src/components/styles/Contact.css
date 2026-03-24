@@ -17,6 +17,7 @@
 .contact-flex {
   display: flex;
   justify-content: space-between;
+  gap: 60px;
 }
 
 .contact-flex h4 {
@@ -31,8 +32,23 @@
 }
 
 .contact-flex p {
-  margin-top: 10px;
-  margin-bottom: 20px;
+  margin-top: 6px;
+  margin-bottom: 16px;
+}
+
+.contact-flex h4 {
+  margin-top: 0;
+}
+
+.contact-list {
+  margin: 10px 0 20px;
+  padding-left: 18px;
+  opacity: 0.85;
+}
+
+.contact-list li {
+  margin-bottom: 8px;
+  line-height: 1.4;
 }
 
 a.contact-social {
@@ -89,6 +105,10 @@ a.contact-social {
   .contact-flex p {
     margin-top: 0px;
   }
+
+  .contact-list li {
+    font-size: 14px;
+  }
 }
 
 @media only screen and (max-width: 900px) {
@@ -98,11 +118,11 @@ a.contact-social {
   }
 
   .contact-flex p {
-    margin-bottom: 0px;
+    margin-bottom: 10px;
   }
 
   .contact-flex h4 {
-    margin-top: 20px;
+    margin-top: 24px;
   }
 
   .contact-section {

@@ -11,18 +11,42 @@ import {
   RapierRigidBody,
 } from "@react-three/rapier";
 
-const textureLoader = new THREE.TextureLoader();
 const imageUrls = [
-  "/images/react2.webp",
-  "/images/next2.webp",
-  "/images/node2.webp",
-  "/images/express.webp",
-  "/images/mongo.webp",
-  "/images/mysql.webp",
-  "/images/typescript.webp",
-  "/images/javascript.webp",
+  "/images/figma.png",
+  "/images/adobexd.png",
+  "/images/photoshop.png",
+  "/images/illustrator.png",
+  "/images/aftereffects.png",
+  "/images/gemini.png",
+  "/images/blender.png",
+  "/images/indesign.png",
+  "/images/coreldraw.png",
+  "/images/sketch.png",
 ];
-const textures = imageUrls.map((url) => textureLoader.load(url));
+
+const pad = 18;
+const cell = 256; // each of 4 cells is 256x256 in a 2x2 grid
+
+const textures = imageUrls.map((url) => {
+  const canvas = document.createElement("canvas");
+  canvas.width = 512;
+  canvas.height = 512;
+  const ctx = canvas.getContext("2d")!;
+  ctx.fillStyle = "#ffffff";
+  ctx.fillRect(0, 0, 512, 512);
+  const texture = new THREE.CanvasTexture(canvas);
+  const img = new Image();
+  img.onload = () => {
+    const size = cell - pad * 2;
+    // 2x2 grid — same logo in all 4 positions
+    [[0, 0], [cell, 0], [0, cell], [cell, cell]].forEach(([x, y]) => {
+      ctx.drawImage(img, x + pad, y + pad, size, size);
+    });
+    texture.needsUpdate = true;
+  };
+  img.src = url;
+  return texture;
+});
 
 const sphereGeometry = new THREE.SphereGeometry(1, 28, 28);
 
@@ -158,17 +182,18 @@ const TechStack = () => {
           map: texture,
           emissive: "#ffffff",
           emissiveMap: texture,
-          emissiveIntensity: 0.3,
-          metalness: 0.5,
-          roughness: 1,
-          clearcoat: 0.1,
+          emissiveIntensity: 0.6,
+          metalness: 0,
+          roughness: 0.3,
+          clearcoat: 0.2,
+          color: "#ffffff",
         })
     );
   }, []);
 
   return (
     <div className="techstack">
-      <h2> My Techstack</h2>
+      <h2> My Toolstack</h2>
 
       <Canvas
         shadows
