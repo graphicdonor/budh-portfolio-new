@@ -24,8 +24,7 @@ const imageUrls = [
   "/images/sketch.png",
 ];
 
-const pad = 18;
-const cell = 256; // each of 4 cells is 256x256 in a 2x2 grid
+const pad = 48;
 
 const textures = imageUrls.map((url) => {
   const canvas = document.createElement("canvas");
@@ -37,11 +36,8 @@ const textures = imageUrls.map((url) => {
   const texture = new THREE.CanvasTexture(canvas);
   const img = new Image();
   img.onload = () => {
-    const size = cell - pad * 2;
-    // 2x2 grid — same logo in all 4 positions
-    [[0, 0], [cell, 0], [0, cell], [cell, cell]].forEach(([x, y]) => {
-      ctx.drawImage(img, x + pad, y + pad, size, size);
-    });
+    const size = 512 - pad * 2;
+    ctx.drawImage(img, pad, pad, size, size);
     texture.needsUpdate = true;
   };
   img.src = url;
