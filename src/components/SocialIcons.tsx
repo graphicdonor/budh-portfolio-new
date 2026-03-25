@@ -65,22 +65,22 @@ const SocialIcons = () => {
           </a>
         </span>
         <span>
-          <a href="https://www.linkedin.com/in/buddhpriyagautam" target="_blank">
+          <a href="https://www.linkedin.com/in/buddhpriya-gautam/" target="_blank">
             <FaLinkedinIn />
           </a>
         </span>
         <span>
-          <a href="https://dribbble.com/buddhpriyagautam" target="_blank">
+          <a href="https://dribbble.com/Buddh" target="_blank">
             <FaDribbble />
           </a>
         </span>
         <span>
-          <a href="https://www.instagram.com/buddhpriyagautam" target="_blank">
+          <a href="https://www.instagram.com/buddh_6691" target="_blank">
             <FaInstagram />
           </a>
         </span>
       </div>
-      <a className="resume-button" href="#">
+      <a className="resume-button" href="/buddhpriya_gautam_resume.pdf" download="buddhpriya_gautam_resume.pdf">
         <HoverLinks text="RESUME" />
         <span>
           <TbNotes />

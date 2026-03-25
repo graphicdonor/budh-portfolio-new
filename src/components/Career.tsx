@@ -18,7 +18,7 @@ const Career = () => {
                 <h4>Lead Designer</h4>
                 <h5>RankWatch</h5>
               </div>
-              <h3>SaaS</h3>
+              <h3>2016 - 2021</h3>
             </div>
             <p>
               Worked on RankWatch, an AI-powered internet marketing platform
@@ -33,7 +33,7 @@ const Career = () => {
                 <h4>UI/UX Designer</h4>
                 <h5>WebSignals</h5>
               </div>
-              <h3>Since 2018</h3>
+              <h3>2019 - 2021</h3>
             </div>
             <p>
               Built product design for a web monitoring and brand intelligence
@@ -48,7 +48,7 @@ const Career = () => {
                 <h4>Product Designer</h4>
                 <h5>R'Dash (YC Funded Startup)</h5>
               </div>
-              <h3>From Scratch</h3>
+              <h3>2022 Present</h3>
             </div>
             <p>
               Built the construction management platform from scratch for

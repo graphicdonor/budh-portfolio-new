@@ -57,7 +57,7 @@ const Contact = () => {
               Behance <MdArrowOutward />
             </a>
             <a
-              href="https://www.linkedin.com/in/buddhpriyagautam"
+              href="https://www.linkedin.com/in/buddhpriya-gautam/"
               target="_blank"
               data-cursor="disable"
               className="contact-social"
@@ -65,7 +65,7 @@ const Contact = () => {
               Linkedin <MdArrowOutward />
             </a>
             <a
-              href="https://dribbble.com/buddhpriyagautam"
+              href="https://dribbble.com/Buddh"
               target="_blank"
               data-cursor="disable"
               className="contact-social"
@@ -73,7 +73,7 @@ const Contact = () => {
               Dribbble <MdArrowOutward />
             </a>
             <a
-              href="https://www.instagram.com/buddhpriyagautam"
+              href="https://www.instagram.com/buddh_6691"
               target="_blank"
               data-cursor="disable"
               className="contact-social"
